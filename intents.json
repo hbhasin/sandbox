@@ -1,0 +1,113 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Citizen Data Science Program https://seagatetechnology.sharepoint.com/sites/SeagateCitizenDataScientistCommunity/SitePages/Citizen-Data-Scientist-Certification-Program-Overview.aspx", "Offering support for CDS program"],
+         "context": [""]
+        },
+        {"tag": "curriculum",
+         "patterns": ["How to check curriculum?", "Open CDS website", "Give me a list of tracks in Citizen Data Science program", "List all tracks in CDS program", "Which program is good for me?" ],
+         "responses": ["Navigating to Citizen Data Science Program Website https://seagatetechnology.sharepoint.com/sites/SeagateCitizenDataScientistCommunity/SitePages/Citizen-Data-Scientist-Certification-Program-Overview.aspx"],
+         "context": [""]
+        },
+		{"tag": "contact",
+         "patterns": ["Whom to contact to get more details?", "Who is the go to person for information about CDS", "How do i register for the different tracks?" ],
+         "responses": ["Please email us at cds@seagate.com"],
+         "context": [""]
+        },
+		{"tag": "levels",
+         "patterns": ["How many levels are there in CDS?", "Can I do a project?" ],
+         "responses": ["We have 2 to 3 tiers based on the track chosen. Tier 1 covers basics of Data Science, Tier 2 covers machine learning algorithms and Tier 3 has individual projects"],
+         "context": [""]
+        },
+		{"tag": "publicity",
+         "patterns": ["How can I show off my certification?", "Will my work be publicized?", "Will management recognize my work?", "Can I share my certification on Linkedin?"],
+         "responses": ["CDS team has put together badges, which can be shared in Seagate emails. The certification can also be shared on linkedin"],
+         "context": [""]
+        },
+		{"tag": "support",
+         "patterns": ["Whom to contact to get more details?", "Who is the go to person for information about CDS", "How do i register for the different tracks?" ],
+         "responses": ["Please email us at cds@seagate.com"],
+         "context": [""]
+		},
+		{"tag": "cost",
+         "patterns": ["How much?", "What is the cost to be paid?", "Does my manager pay for me?" ],
+         "responses": ["The program is free to join"],
+         "context": [""]
+		},
+		{"tag": "project",
+         "patterns": ["How do I start my project?", "Propose a project" ],
+         "responses": ["For details, you can refer to https://seagatetechnology.sharepoint.com/sites/SeagateCitizenDataScientistCommunity/SitePages/CDS-Tier-3-How-To.aspx "],
+         "context": [""]
+		},
+		{"tag": "mentor",
+         "patterns": ["I need a mentor", "How can i get a project mentor?", "Who will be my mentor?" ],
+         "responses": ["The CDS Team will help Tier 3 participants find a mentor. Participants are requested to send in their project proposals first."],
+         "context": [""]
+		},
+		{"tag": "support",
+         "patterns": ["When can I start?", "How do I start?" ],
+         "responses": ["For details, you can refer to https://seagatetechnology.sharepoint.com/sites/SeagateCitizenDataScientistCommunity/SitePages/CDS-Tier-3-How-To.aspx"],
+         "context": [""]
+		},
+		{"tag": "career discovery",
+         "patterns": ["Can I do my project as a Career Discovery?", "How can I use Career Discovery?" ],
+         "responses": ["Yes, you can use a Career Discovery project, so long as the project sponsors agree together with the mentor and the relevant CDS requirement can be met"],
+         "context": [""]
+		},
+		{"tag": "udemy",
+         "patterns": ["How do I activate the Udemy license" ],
+         "responses": ["To activate the udemy license, please click on the link provided by Udemy in the activation email"],
+         "context": [""]
+		},
+		{"tag": "duration",
+         "patterns": ["How long is Tier 1?", "How long is Tier 2?" ],
+         "responses": ["Tier 1 and Tier 2 of the CDS program are "],
+         "context": [""]
+		},
+		{"tag": "tier progression",
+         "patterns": ["Do I have to take all tiers?", "Do I have to enroll in all the tracks?" ],
+         "responses": ["No, you do not have to enroll in all tracks and all tiers. You may complete only one tier or focus on all tiers of only one track"],
+         "context": [""]
+		},
+		{"tag": "deferment",
+         "patterns": ["Can I defer to next wave?", "I have changed role, can I defer to next wave?", "I am busy with my work projects now, can I defer to next wave?" ],
+         "responses": ["Yes, you can defer to the next wave. Please email cds@seagate.com , if you would like to proceed with the deferment"],
+         "context": [""]
+		},
+		{"tag": "udemysite",
+         "patterns": ["what is the link to the udemy website?", "I am unable to access udemy site" ],
+         "responses": ["To access the udemy website for the purpose of CDS please go to seagatescience.udemy.com"],
+         "context": [""]
+		},
+		{"tag": "learning path",
+         "patterns": ["I am unable to access Udemy learning path", "Where is the udemy learning path?", "I cannot find the learning path", "How do I find the learning path?" ],
+         "responses": ["Log on to seagatescience.udemy.com , Click learning paths located at the top left corner of the screen and enroll the learning path you are assigned to"],
+         "context": [""]
+		},
+		{"tag": "jokes",
+         "patterns": ["Tell me a joke?", "Lets Chat", "Humor me" ],
+         "responses": ["Data science is 80% preparing data, 20% complaining about preparing data", "There are 10 kinds of people in this world. Those who understand binary and those who dont", "The data science motto If at first you dont succeed; call it version 1.0"],
+         "context": [""]
+		}
+   ]
+}
